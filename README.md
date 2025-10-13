@@ -10,3 +10,7 @@ Goal: Build strong foundation in C++, Build Projects, Land a Job
 - [ ] Explore Modern C++ Design (C++11 -> C++20)
 - [ ] Build Projects
 - [ ] Apply to Real World Concepts
+
+# Reference
+
+Notes and information are referenced from [learncpp.com](https://www.learncpp.com/)
