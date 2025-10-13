@@ -18,7 +18,7 @@ Good Solutions<br/>
 1. Select a Programming Language (C++)
 2. Select a Code Editor (VSCode)
 
-```
+```cpp
 // main.cpp
 
 #include <iostream>
@@ -27,7 +27,6 @@ int main() {
   std::cout << "Here is some text.";
   return 0;
 }
-
 ```
 
 > [!TIP]
