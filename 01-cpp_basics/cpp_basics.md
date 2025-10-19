@@ -43,6 +43,7 @@ Readable notes in source code for the programmer, ignored by compiler\
 - Multi line comment (/\* \*/)
 
 > [!Tip]
-> Comment code as if someone who has no idea what the code does
-> Comment should explain the reason why some statements are written that way
-> Use #if 0 preprocessor directive to comment out code block
+>
+> - Comment code as if someone who has no idea what the code does
+> - Comment should explain the reason why some statements are written that way
+> - Use #if 0 preprocessor directive to comment out code block
