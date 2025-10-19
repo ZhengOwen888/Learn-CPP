@@ -75,3 +75,5 @@ The main memory in a computer (RAM), the operating system load executing\ progra
 - Assignment - gives a variable a value after it was created
 
 ## 1.5 iostream: cout, cin, and endl
+
+Check out 1.5 folder

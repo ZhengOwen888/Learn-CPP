@@ -1,7 +1,7 @@
 #include <iostream>
 
-int main() {
-
+int main()
+{
   // defining a varible x
   int x;
 

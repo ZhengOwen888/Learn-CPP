@@ -3,7 +3,8 @@
 
 #if 0 // #if 0 preporcessor comment out code block
 
-int main() {
+int main()
+{
   // This is a single line comment
 
   /*
@@ -15,6 +16,7 @@ int main() {
 
 #endif
 
-int main() {
+int main()
+{
   return 0;
 }
