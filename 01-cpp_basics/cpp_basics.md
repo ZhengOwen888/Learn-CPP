@@ -47,3 +47,22 @@ Readable notes in source code for the programmer, ignored by compiler\
 > - Comment code as if someone who has no idea what the code does
 > - Comment should explain the reason why some statements are written that way
 > - Use #if 0 preprocessor directive to comment out code block
+
+## 1.3 Objects and Variables
+
+### Data
+
+Information that can be moved, processed, or stored by a computer
+
+- value - single peice of data (data value)
+- literals - values placed directly into source code
+
+### Random Access Memory (RAM)
+
+The main memory in a computer (RAM), the operating system load executing\ program into RAM, and use extra storage for calculated values, input values,\ read data, and written data.
+
+### Objects and Variables
+
+- Objects - represent a region of storage (RAM or CPU register)
+- Variables - named memory location which store a value
+- Identifier - name used to identify programming elements (variables, functions, classes, etc.)
