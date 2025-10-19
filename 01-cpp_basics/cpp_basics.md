@@ -66,3 +66,12 @@ The main memory in a computer (RAM), the operating system load executing\ progra
 - Objects - represent a region of storage (RAM or CPU register)
 - Variables - named memory location which store a value
 - Identifier - name used to identify programming elements (variables, functions, classes, etc.)
+
+## 1.4 Variable Assignment and Initialization
+
+### Initialization and Assignment
+
+- Initialization - gives a variable initial value right when it is created
+- Assignment - gives a variable a value after it was created
+
+## 1.5 iostream: cout, cin, and endl
