@@ -55,7 +55,7 @@ Readable notes in source code for the programmer, ignored by compiler\
 Information that can be moved, processed, or stored by a computer
 
 - value - single peice of data (data value)
-- literals - values placed directly into source code
+- literals - values placed directly into source code (hard coded)
 
 ### Random Access Memory (RAM)
 
@@ -76,4 +76,14 @@ The main memory in a computer (RAM), the operating system load executing\ progra
 
 ## 1.5 iostream: cout, cin, and endl
 
-Check out 1.5 folder
+## 1.6 Uninitialized Variables
+
+- Initialized - giving the variable a initial value the moment it is defined
+- Assignment - giving the variable a value some time after it has been defined
+- Uninitialized - the variable is defined but with no value\
+
+- Implementation - the compiler and its standard library
+- Implementation defined behavior - behavior created by implementation and is documented
+- Unspecified bahavior - same as implementation defined behavior, but\ only that it is not documented\
+
+- Undefined Behavior (UB) - Behavior that is not defined by the\ Implementation, you can't predict or expect what would happen.

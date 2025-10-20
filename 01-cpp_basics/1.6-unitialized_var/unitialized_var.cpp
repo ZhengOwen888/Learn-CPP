@@ -14,10 +14,14 @@ int main()
 
   /*
     Implementation - specific compiler + the associated statndard library it comes with
-    Implementation defined behavior - behavior defined by implementation
+    Implementation defined behavior - behavior defined by implementation and documented
     Unspecified behavior - almost the same as implementation defined behavior but is not required to be documented
 
     !!!AVOID Implementation defined behavior and Unspecified behavior
+  */
+
+  /*
+    Undefined behavior is when you can not guarantee how a program would behave
   */
 
   return 0;
