@@ -20,7 +20,8 @@ A collection of statements that executes sequentially
 
 ### main()
 
-every program must have a "main()" function, statements inside main\ are executed in sequential order
+every program must have a "main()" function, statements inside main are\
+executed in sequential order
 
 ### Errors
 
@@ -59,7 +60,9 @@ Information that can be moved, processed, or stored by a computer
 
 ### Random Access Memory (RAM)
 
-The main memory in a computer (RAM), the operating system load executing\ program into RAM, and use extra storage for calculated values, input values,\ read data, and written data.
+The main memory in a computer (RAM), the operating system load executing program\
+into RAM, and use extra storage for calculated values, input values, read data,\
+and written data.
 
 ### Objects and Variables
 
@@ -84,21 +87,21 @@ to insert data into the buffer before flushing.
 ## std::in
 
 A predefined object that is used for standard input. It uses the (>>) operator\
-to extract data from buffer after user input is stored in the buffer. User input\
-is seperated by a newline character \n. User input is read until an invalid data\
-is read or a newline value is read. Having an unexpected or invalid user input\
-can potentially cause the extraction of data to abort and proceed to the next\
-extraction. This is problematic and the unextracted data stays in the buffer until\
-issue is resolved or when the program terminates.
+to extract data from buffer after user input is stored in the buffer. User\
+input is seperated by a newline character \n. User input is read until an\
+invalid data is read or a newline value is read. Having an unexpected or\
+invalid user input can potentially cause the extraction of data to abort and\
+proceed to the next extraction. This is problematic and the unextracted data\
+stays in the buffer until issue is resolved or when the program terminates.
 
 ## std::endl and \n
 
 std::endl is a iostream manipulator meaning it manipulates or changes the way\
 the iostream displays or takes in data. For one it adds a new line to the buffer\
-and force flush everything in the buffer to the destination which is the console.
+and force flush everything in the buffer to the destination which is the console.\
 This is a very slow process if you use std::end after every new line.\
 
-Instead you should use \n, which is a representation of unicode character for
+Instead you should use \n, which is a representation of unicode character for\
 newline. Let the program automatically flush instead.
 
 ## 1.6 Uninitialized Variables
@@ -112,3 +115,49 @@ newline. Let the program automatically flush instead.
 - Unspecified bahavior - same as implementation defined behavior, but only that it is not documented
 
 - Undefined Behavior (UB) - Behavior that is not defined by the Implementation, you can't predict or expect what would happen.
+
+## 1.7 Keywords and Identifiers
+
+- Keywords - set of words that are reserved for the language
+- Identifiers - the name of a variable, function or any other item
+
+## 1.8 Whitespace and Basic Formatting
+
+Add reasonable amount of whitespaces to make code clean and readable
+
+## 1.9 Literals and Operators
+
+### Literals
+
+Literals or literal constants are values that are directly added into the\
+source code (hard coded values). While they are not able to be changed\
+they can be acted upon immediately when called.\
+
+\On the otherhand variable values need to first be read from the memory\
+block before the value can be accessed.\
+
+### operators
+
+- Operation - having zero or more inputs that are then evaluated
+- Operands - the inputs for a operation
+- Operator - the symbols that perform the operation
+
+- Unary - operators that act on one operands
+- Binary - operators that act on two operands
+- Ternary - operators that act on three operands
+- Nullary - operators that act on zero operands
+
+## 1.10 Expressions
+
+Expressions are part of a statement\
+
+- Expressions - sequence of literals, variables and function calls that evaluates to a value
+- Evaluation - the act of calculating the value
+- Result - the return value of the evaluation of the expression
+
+Expression statements are statements that are expressions that end with a semicolon
+
+- Useless Expression - expression that are evaluted and then discarded without using it
+- Subexpression - expression that are used as operands
+- Full Expression - the entire expression
+- Compund Expression - expression that uses more than one operator
