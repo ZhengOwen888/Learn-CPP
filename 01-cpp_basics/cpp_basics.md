@@ -94,9 +94,9 @@ issue is resolved or when the program terminates.
 ## std::endl and \n
 
 std::endl is a iostream manipulator meaning it manipulates or changes the way\
-the iostream displays data. For one it adds a new line to the buffer and force\
-flush everything in the buffer to the destination which is the console. This\
-is a very slow process if you use std::end after every new line.\
+the iostream displays or takes in data. For one it adds a new line to the buffer\
+and force flush everything in the buffer to the destination which is the console.
+This is a very slow process if you use std::end after every new line.\
 
 Instead you should use \n, which is a representation of unicode character for
 newline. Let the program automatically flush instead.
