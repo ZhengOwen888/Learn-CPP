@@ -22,7 +22,7 @@ int main()
   // Modern initialization forms (preferred):
   // Avoids "Most Vexing Parse" and "narrowing conversions"
   int d{7}; // direct-list-initialization (initial value with braces)
-  int e{}; // value-initialization (empty braces)
+  int e{};  // value-initialization (empty braces)
 
   // You can choose either but be consistent
 

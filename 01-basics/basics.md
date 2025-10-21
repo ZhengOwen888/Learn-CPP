@@ -146,6 +146,7 @@ block before the value can be accessed.\
 - Binary - operators that act on two operands
 - Ternary - operators that act on three operands
 - Nullary - operators that act on zero operands
+  git
 
 ## 1.10 Expressions
 
